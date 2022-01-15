@@ -58,6 +58,7 @@ public class P437 {
         TreeNode t2 = new TreeNode(5, t4, t5);
         TreeNode t1 = new TreeNode(10, t2, t3);
         System.out.println(test.pathSum(t1, 8));
+        System.out.println();
     }
 
 //    public int solve (TreeNode cur, Map<Long, Integer> count, long targetSum){
