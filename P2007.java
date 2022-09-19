@@ -6,6 +6,7 @@ public class P2007 {
 
     public int[] findOriginalArray(int[] changed) {
         int n = changed.length;
+        int bbb = 3;
         if (n%2 == 1){
             return new int[]{};
         }
